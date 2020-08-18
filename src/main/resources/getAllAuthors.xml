@@ -1,0 +1,13 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:lib="libraryService">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <lib:getAuthorsRequest>
+            <lib:search>
+                <lib:orderType>%s</lib:orderType>
+                <lib:page>%s</lib:page>
+                <lib:pagination>%s</lib:pagination>
+                <lib:size>%s</lib:size>
+            </lib:search>
+        </lib:getAuthorsRequest>
+    </soapenv:Body>
+</soapenv:Envelope>

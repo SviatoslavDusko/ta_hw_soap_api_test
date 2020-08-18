@@ -1,0 +1,8 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:lib="libraryService">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <lib:getAuthorRequest>
+            <lib:authorId>%s</lib:authorId>
+        </lib:getAuthorRequest>
+    </soapenv:Body>
+</soapenv:Envelope>

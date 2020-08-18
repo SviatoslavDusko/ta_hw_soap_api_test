@@ -1,0 +1,11 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:lib="libraryService">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <lib:deleteAuthorRequest>
+            <lib:authorId>%s</lib:authorId>
+            <lib:options>
+                <lib:forcibly>false</lib:forcibly>
+            </lib:options>
+        </lib:deleteAuthorRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
